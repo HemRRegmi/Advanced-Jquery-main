@@ -1,0 +1,31 @@
+/* Global Styles */
+body {
+    background-color: black !important;
+    color: white !important;
+    font-family: Arial, sans-serif;
+}
+#element {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(86, 4, 0);
+    position: relative;
+    margin-top: 10px;
+    display: block;
+}
+#progressbar {
+    width: 300px;
+    height: 60px;
+    background: #5a0000; 
+    margin-top: 10px;
+}
+
+#draggable {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 221, 255);
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+    cursor: move;
+    margin: 10px;
+}
